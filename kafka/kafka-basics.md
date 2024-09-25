@@ -4,6 +4,7 @@
  - [About](#name)
  - [Terminologies in Kafkas](#terminologies)
  - [Configuration example](#code)
+ - [References and notes](#references)
     
 
 
@@ -45,7 +46,7 @@ Apache Kafka is an open-source distributed streaming platform designed to handle
 
 ## Kafka Configuration / Code Sample <a name="code" ></a>
 
-### 1. Create a kafka topic 
+#### 1. Create a kafka topic 
 ```java
 // Kafka broker connection properties
         Properties props = new Properties();
@@ -71,7 +72,7 @@ Apache Kafka is an open-source distributed streaming platform designed to handle
             adminClient.close();
         }
 ```
-### 2.  Configure a Kafka Producer
+#### 2.  Configure a Kafka Producer
 
 ```java 
 Properties producerProps = new Properties();
@@ -82,7 +83,7 @@ ProducerRecord<String, String> record = new ProducerRecord<>("my-topic",  
 producer.send(record);
 ```
 
-### 3. Configure a Kafka Consumer 
+#### 3. Configure a Kafka Consumer 
 ```java 
 Properties consumerProps = new Properties();
 consumerProps.put("bootstrap.servers", "localhost:9092");
@@ -101,7 +102,7 @@ consumer.commitSync();
 ```
 
 
-### Kafka references 
+### Kafka references <a name="references" ></a>
 
 - [Consumer off-set](https://www.youtube.com/watch?v=KOu6DVdaY24) 
 - [Message queue (kmq)](https://www.youtube.com/watch?v=-As92HV0O4E)
