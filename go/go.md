@@ -6,7 +6,9 @@
  - [About](#about)
  - [Key features](#features)
  - [Use Cases](#use-case)
+ - [Go Language Notes](#note)
  - [Reference](#reference)
+
 
 ## About <a name = "about"></a>
 Golang, often referred to as Go, is a statically typed, compiled programming language designed by Google. It's known for its simplicity, efficiency, and concurrency features, making it a popular choice for various applications.
@@ -27,12 +29,16 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
  - Data Science: Analyzing and processing large datasets.
  - DevOps: Automating tasks and managing infrastructure.
 
+## Go Language Notes <a name = "notes"></a>
+ - [Channels and Concurrency](features/Channels%20and%20Concurrency.md)
 
 ## Reference <a name = "reference"></a>
   - [Beginners Should Think Differently When Writing Golang](https://www.youtube.com/watch?v=PyDMqgOkiR8)
   - [Learn Golang Channels For Beginners By Example](https://www.youtube.com/watch?v=z75DKfOfDA4&list=PL0xRBLFXXsP5cru52B5GAQmIrTTAL8A66)
   - [Learn Golang ](https://www.youtube.com/watch?v=z75DKfOfDA4&list=PL0xRBLFXXsP5cru52B5GAQmIrTTAL8A66)
   - [How To Golang](https://www.youtube.com/watch?v=-gW7oSFxT2I&list=PL0xRBLFXXsP7-0IVCmoo2FEWBrQzfH2l8)
+  - [Channels and Concurrency - 1](https://www.youtube.com/watch?v=qyM8Pi1KiiM)
+  - [Channels and Concurrency - 2](https://www.youtube.com/watch?v=wELNUHb3kuA)
 
 
 
