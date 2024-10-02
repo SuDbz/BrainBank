@@ -3,6 +3,7 @@
 
 ## Channels <a name = "channels"></a>
 
+
 ### 1. Channels
 - Channels in Go are a fundamental mechanism for communicating between goroutines. They provide a way to safely pass values between concurrent tasks, ensuring that data is shared in a controlled and synchronized manner.
 
@@ -105,6 +106,7 @@ Example :
 - When you want to implement a more complex producer-consumer pattern with buffering.
 
 
+<br><br>
 
 ### 2. Select 
  select is a control flow statement in Go that allows you to wait for multiple channels to become ready for communication
@@ -157,6 +159,8 @@ func main() {
 ## Concurrency <a name = "concurrency"></a>
 Concurrency in Go refers to the ability of a program to perform multiple tasks simultaneously, even if they don't necessarily execute at the same time. This is achieved through the use of goroutines.
 
+<br><br>
+
 ### 1. For-Select Loop
 The for-select loop in Go is a combination of a for loop and a select statement. It allows you to iterate over a channel while also handling other concurrent operations. This is particularly useful when you need to process values from a channel but also want to be able to handle timeouts, cancelations, or other events.
 
@@ -200,6 +204,7 @@ func main() {
 	}
 }
 ```
+<br><br>
 
 ### 2. Done Channel
 In Go, a "done channel" is a channel that is used to signal the completion or termination of a task. It's a common pattern in concurrent programming to coordinate the execution of multiple goroutines.
@@ -235,6 +240,8 @@ func main() {
  - ```func worker( done <-chan bool)``` - The <-chan bool type indicates that done is a read-only channel that can only receive boolean values
  - ```func worker( done chan bool)```   - The <-chan bool type indicates that done is a read and write channel that can only receive boolean values
 
+
+<br><br>
 
 ### 3. Pipeline
 
