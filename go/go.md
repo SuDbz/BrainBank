@@ -39,6 +39,7 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
   - [How To Golang](https://www.youtube.com/watch?v=-gW7oSFxT2I&list=PL0xRBLFXXsP7-0IVCmoo2FEWBrQzfH2l8)
   - [Channels and Concurrency - 1](https://www.youtube.com/watch?v=qyM8Pi1KiiM)
   - [Channels and Concurrency - 2](https://www.youtube.com/watch?v=wELNUHb3kuA)
+  - [GoLang: 10+ UNIQUE Concepts/Conventions that Beginners Should Know About!](https://www.youtube.com/watch?v=CK5rLpZk5A8)
 
 
 
