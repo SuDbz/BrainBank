@@ -1,4 +1,8 @@
 
+## Table of contents
+ - [Channels](#channels)
+ - [Concurrency](#concurrency)
+
 
 
 ## Channels <a name = "channels"></a>
