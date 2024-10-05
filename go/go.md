@@ -30,6 +30,12 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
  - Data Science: Analyzing and processing large datasets.
  - DevOps: Automating tasks and managing infrastructure.
 
+## Go Project Structure
+ - [Golang standard project layout (not official )](https://github.com/golang-standards/project-layout)
+ - [This Is The BEST Way To Structure Your GO Projects](https://www.youtube.com/watch?v=dxPakeBsgl4)
+       - [readme](https://github.com/Melkeydev/go-blueprint?tab=readme-ov-file)
+       - [blueprint](https://go-blueprint.dev/)
+
 ## Go Language Notes <a name = "notes"></a>
  - [Intergaces](features/Interfaces.md)
  - [Goroutines](features/Goroutines.md)
