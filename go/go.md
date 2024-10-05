@@ -75,14 +75,10 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
 
     - [go module dependency](https://www.youtube.com/watch?v=5VKZzVNKodk)
     - [A long video on MOD in golang](https://www.youtube.com/watch?v=O8uUGEobo-Q)
-    - [Golang Rune - Fully Understanding Runes in Go](https://www.youtube.com/watch?v=7isCXLWPTqI&list=PLve39GJ2D71wKL33k5eZ6Frot74mhiCxz)
-    - [Go Workspace & Runtime Explained in 5 Minutes](https://www.youtube.com/watch?v=k8LClK96NZ4&list=PLve39GJ2D71wKL33k5eZ6Frot74mhiCxz&index=5)
-    - [Go Environment Variables Explained in 5 Minutes](https://www.youtube.com/watch?v=Ut-NLq6d694&list=PLve39GJ2D71wKL33k5eZ6Frot74mhiCxz&index=6)
+- [Golang Rune - Fully Understanding Runes in Go](https://www.youtube.com/watch?v=7isCXLWPTqI&list=PLve39GJ2D71wKL33k5eZ6Frot74mhiCxz)
+- [Go Workspace & Runtime Explained in 5 Minutes](https://www.youtube.com/watch?v=k8LClK96NZ4&list=PLve39GJ2D71wKL33k5eZ6Frot74mhiCxz&index=5)
+- [Go Environment Variables Explained in 5 Minutes](https://www.youtube.com/watch?v=Ut-NLq6d694&list=PLve39GJ2D71wKL33k5eZ6Frot74mhiCxz&index=6)
   
-   
-        
-   
-
 
 ## Go Language Notes <a name = "notes"></a>
  - [Intergaces](features/Interfaces.md)
