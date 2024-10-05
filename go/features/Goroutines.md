@@ -132,8 +132,6 @@ func main() {
 - Consider using more advanced synchronization mechanisms like read-write locks or atomic operations when appropriate.
 
 
-#### Other References
-[Channels and Concurrency](/Channels and Concurrency.md)
 
 <br><br>
 #### Goroutines References 
