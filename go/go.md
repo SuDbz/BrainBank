@@ -39,7 +39,7 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
  - [Abstraction](https://www.youtube.com/watch?v=CRY4_-p5FgM&list=PL7g1jYj15RUMMCMDYPyZHN3CaWbt3Rl5y&index=5)
  - Context
     - [Advanced Golang: Channels, Context and Interfaces Explained](https://www.youtube.com/watch?v=VkGQFFl66X4)
-    - (How To Use The Context Package In Golang?)[https://www.youtube.com/watch?v=kaZOXRqFPCw]
+    - [How To Use The Context Package In Golang?](https://www.youtube.com/watch?v=kaZOXRqFPCw)
 
 ## Reference <a name = "reference"></a>
   - [Beginners Should Think Differently When Writing Golang](https://www.youtube.com/watch?v=PyDMqgOkiR8)
