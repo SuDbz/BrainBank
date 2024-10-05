@@ -1,4 +1,4 @@
-# Tips
+# Tips and Notes
 
 
 This page offers a curated collection of video resources that provide essential tips and best practices for writing 
@@ -32,4 +32,29 @@ enhance your coding skills and create high-quality software
    - [25 VS Code Productivity Tips and Speed Hacks](https://www.youtube.com/watch?v=ifTF3ags0XI)
    - [GitHub Copilot Top Features Explained](https://www.youtube.com/watch?v=KjyMQzoJo8Y)
 
+###  Formaters
+- %s: Prints the value as a string.
+- %d: Prints the value as a decimal integer.
+- %f: Prints the value as a floating-point number.
+- %b: Prints the value as a binary number.
+- %x: Prints the value as a hexadecimal number.
+- %o: Prints the value as an octal number.
+- %q: Prints the value as a quoted Go string.
+- %p: Prints the value as a pointer.
+- %+v: Prints the value with the full type information.
+ ```go
+var x int = 42
+var s string = "Hello"
+var f float64 = 3.14
+
+fmt.Printf("%s\n", s)    // Output: Hello
+fmt.Printf("%d\n", x)    // Output: 42
+fmt.Printf("%f\n", f)    // Output: 3.140000
+fmt.Printf("%b\n", x)    // Output: 101010
+fmt.Printf("%x\n", x)    // Output: 2a
+fmt.Printf("%o\n", x)    // Output: 52
+fmt.Printf("%q\n", s)    // Output: "Hello"
+fmt.Printf("%p\n", &x)   // Output: 0x1040a000 (address of x)
+fmt.Printf("%+v\n", x)   // Output: int(42)
+ ```
 
