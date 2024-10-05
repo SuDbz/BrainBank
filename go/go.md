@@ -38,11 +38,48 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
     - [blueprint](https://go-blueprint.dev/)
  - Mod
    
-   Mod files in Go are configuration files that specify the dependencies and version requirements of a Go project. They were introduced in Go 1.11 to simplify dependency management and make it more reliable.
+   Mod files in Go are configuration files that specify the dependencies and version requirements of a Go project.
+   They were introduced in Go 1.11 to simplify dependency management and make it more reliable.
 
-        go mod init example.com/yourproject
+        
+   ###### 1. go mod init
+        Initializes a new Go module and creates a go.mod file in the current directory.
+
+        Example: go mod init example.com/yourproject
+   
+        Functionality:
+            Sets the module path in the go.mod file.
+            Adds any direct dependencies to the require section of the go.mod file.
+
+   
+    ###### 2. go mod tidy
+         Ensures that the go.mod file and the vendor directory are consistent with the project's dependencies.
+
+         Example: go mod tidy
+
+         Functionality:
+            Adds missing dependencies to the go.mod file.
+            Removes unnecessary dependencies from the go.mod file.
+            Updates dependency versions to the latest compatible ones.
+            Updates the vendor directory to match the dependencies in the go.mod file.
+
+   ###### 3. go mod vendor
+          Copies all dependencies into a vendor directory within the projec
+
+          Example: go mod vendor
+   
+          Functionality:
+             Creates a vendor directory at the project's root.
+             Copies all dependencies listed in the go.mod file into the vendor directory.
+             This can be useful for offline builds or specific dependency management strategies.
+
 
     - [go module dependency](https://www.youtube.com/watch?v=5VKZzVNKodk)
+  
+   
+        
+   
+
 
 ## Go Language Notes <a name = "notes"></a>
  - [Intergaces](features/Interfaces.md)
