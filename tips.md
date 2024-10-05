@@ -32,7 +32,7 @@ enhance your coding skills and create high-quality software
    - [25 VS Code Productivity Tips and Speed Hacks](https://www.youtube.com/watch?v=ifTF3ags0XI)
    - [GitHub Copilot Top Features Explained](https://www.youtube.com/watch?v=KjyMQzoJo8Y)
 
-###  Formaters
+###  Go String Formaters
 - %s: Prints the value as a string.
 - %d: Prints the value as a decimal integer.
 - %f: Prints the value as a floating-point number.
