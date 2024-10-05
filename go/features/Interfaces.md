@@ -1,3 +1,5 @@
+ [Home](../go.md)
+
 # Interface
  
 A powerful mechanism for defining the behavior of objects without specifying their concrete implementation. They provide a contract that types must adhere to, allowing for polymorphism and loose coupling
