@@ -30,7 +30,9 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
  - DevOps: Automating tasks and managing infrastructure.
 
 ## Go Language Notes <a name = "notes"></a>
+ - [Goroutines](features/Goroutines.md)
  - [Channels and Concurrency](features/Channels%20and%20Concurrency.md)
+
 
 ## Reference <a name = "reference"></a>
   - [Beginners Should Think Differently When Writing Golang](https://www.youtube.com/watch?v=PyDMqgOkiR8)
