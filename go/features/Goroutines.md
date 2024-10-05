@@ -133,7 +133,7 @@ func main() {
 
 
 #### Other References
-(Channels and Concurrency)[Channels and Concurrency.md]
+[Channels and Concurrency](Channels and Concurrency.md)
 
 <br><br>
 #### Goroutines References 
