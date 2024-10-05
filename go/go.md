@@ -48,8 +48,8 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
         Example: go mod init example.com/yourproject
    
         Functionality:
-            Sets the module path in the go.mod file.
-            Adds any direct dependencies to the require section of the go.mod file.
+            1. Sets the module path in the go.mod file.
+            2. Adds any direct dependencies to the require section of the go.mod file.
 
    
     ###### 2. go mod tidy
@@ -58,10 +58,10 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
          Example: go mod tidy
 
          Functionality:
-            Adds missing dependencies to the go.mod file.
-            Removes unnecessary dependencies from the go.mod file.
-            Updates dependency versions to the latest compatible ones.
-            Updates the vendor directory to match the dependencies in the go.mod file.
+            1. Adds missing dependencies to the go.mod file.
+            2. Removes unnecessary dependencies from the go.mod file.
+            3. Updates dependency versions to the latest compatible ones.
+            4. Updates the vendor directory to match the dependencies in the go.mod file.
 
    ###### 3. go mod vendor
           Copies all dependencies into a vendor directory within the projec
@@ -69,9 +69,9 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
           Example: go mod vendor
    
           Functionality:
-             Creates a vendor directory at the project's root.
-             Copies all dependencies listed in the go.mod file into the vendor directory.
-             This can be useful for offline builds or specific dependency management strategies.
+             1. Creates a vendor directory at the project's root.
+             2. Copies all dependencies listed in the go.mod file into the vendor directory.
+             3. This can be useful for offline builds or specific dependency management strategies.
 
 
     - [go module dependency](https://www.youtube.com/watch?v=5VKZzVNKodk)
