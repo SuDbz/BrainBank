@@ -49,6 +49,9 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
  - [Important Tips On How To Write Idiomatic Code In Golang](https://www.youtube.com/watch?v=9cJHCoSxbn8)
  - [How To Build And Structure A Microservice In Golang?!](https://www.youtube.com/watch?v=sqj4UzN4OpU)
  - [Don't Make this Golang Beginner Mistake!](https://www.youtube.com/watch?v=M9h6KGFRRwE)
+ - Design Pattern
+      - [Golang Pattern](https://www.youtube.com/watch?v=pNv0dXBqKsM&list=PLZ6pHHPq5DrnH7XK5NXAXbCFeHfQzIauk)
+      - [Go Design Patterns](https://www.youtube.com/watch?v=F365lY5ECGY&list=PLJbE2Yu2zumAKLbWO3E2vKXDlQ8LT_R28)
 
 ## Reference <a name = "reference"></a>
   - [Beginners Should Think Differently When Writing Golang](https://www.youtube.com/watch?v=PyDMqgOkiR8)
