@@ -8,7 +8,6 @@
  - [Use Cases](#use-case)
  - [Go Language Notes](#note)
  - [Common notes](#others)
- - [Reference](#reference)
 
 
 ## About <a name = "about"></a>
@@ -107,16 +106,6 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
  - Design Pattern
       - [Golang Pattern](https://www.youtube.com/watch?v=pNv0dXBqKsM&list=PLZ6pHHPq5DrnH7XK5NXAXbCFeHfQzIauk)
       - [Go Design Patterns](https://www.youtube.com/watch?v=F365lY5ECGY&list=PLJbE2Yu2zumAKLbWO3E2vKXDlQ8LT_R28)
-
-## Reference <a name = "reference"></a>
-  - [Beginners Should Think Differently When Writing Golang](https://www.youtube.com/watch?v=PyDMqgOkiR8)
-  - [Learn Golang Channels For Beginners By Example](https://www.youtube.com/watch?v=z75DKfOfDA4&list=PL0xRBLFXXsP5cru52B5GAQmIrTTAL8A66)
-  - [Learn Golang ](https://www.youtube.com/watch?v=z75DKfOfDA4&list=PL0xRBLFXXsP5cru52B5GAQmIrTTAL8A66)
-  - [How To Golang](https://www.youtube.com/watch?v=-gW7oSFxT2I&list=PL0xRBLFXXsP7-0IVCmoo2FEWBrQzfH2l8)
-  - [Channels and Concurrency - 1](https://www.youtube.com/watch?v=qyM8Pi1KiiM)
-  - [Channels and Concurrency - 2](https://www.youtube.com/watch?v=wELNUHb3kuA)
-  - [GoLang: 10+ UNIQUE Concepts/Conventions that Beginners Should Know About!](https://www.youtube.com/watch?v=CK5rLpZk5A8)
-  - [Advanced GO ](https://www.youtube.com/watch?v=jHd0FczIjAE&list=PL7g1jYj15RUMMCMDYPyZHN3CaWbt3Rl5y)
 
 
 
