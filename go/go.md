@@ -42,6 +42,8 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
     - [How To Use The Context Package In Golang?](https://www.youtube.com/watch?v=kaZOXRqFPCw)
  - Pointers
     - [Go Pointers: When & How To Use Them Efficiently](https://www.youtube.com/watch?v=3WsEDZRif6U)
+ - Slice
+    - [Golang Slice Tricks Every Beginner Should Know](https://www.youtube.com/watch?v=AL_C9nF_0ss)
 
 ## Reference <a name = "reference"></a>
   - [Beginners Should Think Differently When Writing Golang](https://www.youtube.com/watch?v=PyDMqgOkiR8)
