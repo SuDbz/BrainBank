@@ -34,6 +34,9 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
  - [Goroutines](features/Goroutines.md)
  - [Channels and Concurrency](features/Channels%20and%20Concurrency.md)
 
+## Others 
+ - [Closures](https://www.youtube.com/watch?v=jHd0FczIjAE&list=PL7g1jYj15RUMMCMDYPyZHN3CaWbt3Rl5y&index=1)
+ - [Abstraction](https://www.youtube.com/watch?v=CRY4_-p5FgM&list=PL7g1jYj15RUMMCMDYPyZHN3CaWbt3Rl5y&index=5)
 
 ## Reference <a name = "reference"></a>
   - [Beginners Should Think Differently When Writing Golang](https://www.youtube.com/watch?v=PyDMqgOkiR8)
