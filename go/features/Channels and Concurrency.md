@@ -300,3 +300,4 @@ unc main() {
  #### Concurrency References 
  - [Channels and Concurrency - 1](https://www.youtube.com/watch?v=qyM8Pi1KiiM)
  - [Channels and Concurrency - 2](https://www.youtube.com/watch?v=wELNUHb3kuA)
+ - [Learn Golang Concurrency For Beginners By Example](https://www.youtube.com/watch?v=P4tckkcyef0)
