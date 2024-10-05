@@ -30,12 +30,19 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
  - Data Science: Analyzing and processing large datasets.
  - DevOps: Automating tasks and managing infrastructure.
 
-## Go Project Structure
+## Go Project Structure and basics 
+ - [What can you build in Golang?!](https://www.youtube.com/watch?v=4fjNO9CuqVs)
  - [Golang standard project layout (not official )](https://github.com/golang-standards/project-layout)
  - [This Is The BEST Way To Structure Your GO Projects](https://www.youtube.com/watch?v=dxPakeBsgl4)
-
     - [readme](https://github.com/Melkeydev/go-blueprint?tab=readme-ov-file)
     - [blueprint](https://go-blueprint.dev/)
+ - Mod
+   
+   Mod files in Go are configuration files that specify the dependencies and version requirements of a Go project. They were introduced in Go 1.11 to simplify dependency management and make it more reliable.
+
+        go mod init example.com/yourproject
+
+    - [go module dependency](https://www.youtube.com/watch?v=5VKZzVNKodk)
 
 ## Go Language Notes <a name = "notes"></a>
  - [Intergaces](features/Interfaces.md)
