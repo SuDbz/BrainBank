@@ -58,6 +58,7 @@ type ReaderWriter interface {
 
 #### Reference
  - [This Will Make Everyone Understand Golang Interfaces](https://www.youtube.com/watch?v=rH0bpx7I2Dk)
+ - [The Most Efficient Struct Configuration Pattern For Golang](https://www.youtube.com/watch?v=MDy7JQN5MN4)
  - [Golang: The Last Interface Explanation You'll Ever Need](https://www.youtube.com/watch?v=SX1gT5A9H-U)
  - [Master Golang with Interfaces](https://www.youtube.com/watch?v=IbXSEGB8LRs&list=PL7g1jYj15RUMMCMDYPyZHN3CaWbt3Rl5y&index=4)
  - [Composition](https://www.youtube.com/watch?v=kgCYq3EGoyE&list=PL7g1jYj15RUMMCMDYPyZHN3CaWbt3Rl5y&index=6)
