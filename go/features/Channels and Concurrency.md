@@ -158,7 +158,8 @@ func main() {
 
 
 #### Channel References 
- [Channels and Concurrency](https://www.youtube.com/watch?v=qyM8Pi1KiiM)
+-  [Channels and Concurrency](https://www.youtube.com/watch?v=qyM8Pi1KiiM)
+-  [Learn Golang Channels For Beginners By Example](https://www.youtube.com/watch?v=z75DKfOfDA4)
 
 <br><br><br><br><br>
 
