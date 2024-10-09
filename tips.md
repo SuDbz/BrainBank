@@ -23,6 +23,7 @@ enhance your coding skills and create high-quality software
   - [Books](https://github.com/samayun/devbooks/blob/master/Designing%20Data-Intensive%20Applications%20The%20Big%20Ideas%20Behind%20Reliable%2C%20Scalable%2C%20and%20Maintainable%20Systems%20(%20PDFDrive%20).pdf)
   - [system-design-primer](https://github.com/donnemartin/system-design-primer/blob/master/README.md)
   - [Talks and other scale related notes](https://github.com/binhnguyennus/awesome-scalability?tab=readme-ov-file#talk)
+  - [awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design?tab=readme-ov-file)
 
 
 ### API  
