@@ -65,3 +65,10 @@ fmt.Printf("%p\n", &x)   // Output: 0x1040a000 (address of x)
 fmt.Printf("%+v\n", x)   // Output: int(42)
  ```
 
+
+
+### AI
+  -[AI-For-Beginners](https://microsoft.github.io/AI-For-Beginners/)
+  -[ML-For-Beginners](https://microsoft.github.io/ML-For-Beginners/#/1-Introduction/1-intro-to-ML/README)
+  -[AI](https://www.udemy.com/course/artificial-intelligence-az/?couponCode=IND21PM)
+
