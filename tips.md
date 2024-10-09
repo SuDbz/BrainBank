@@ -22,7 +22,7 @@ enhance your coding skills and create high-quality software
   - [awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources/tree/main?tab=readme-ov-file)
   - [Books](https://github.com/samayun/devbooks/blob/master/Designing%20Data-Intensive%20Applications%20The%20Big%20Ideas%20Behind%20Reliable%2C%20Scalable%2C%20and%20Maintainable%20Systems%20(%20PDFDrive%20).pdf)
   - [system-design-primer](https://github.com/donnemartin/system-design-primer/blob/master/README.md)
-  - [Talks](https://github.com/binhnguyennus/awesome-scalability?tab=readme-ov-file#talk)
+  - [Talks and other scale related notes](https://github.com/binhnguyennus/awesome-scalability?tab=readme-ov-file#talk)
 
 
 ### API  
