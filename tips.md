@@ -19,6 +19,7 @@ enhance your coding skills and create high-quality software
   - [7 Must-know Strategies to Scale Your Database](https://www.youtube.com/watch?v=_1IKwnbscQU)
   - [Basic System Design for Uber or Lyft | System Design Interview Prep](https://www.youtube.com/watch?v=R_agd5qZ26Y)
   - [Design Twitter - System Design Interview](https://www.youtube.com/watch?v=o5n85GRKuzk)
+  - [awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources/tree/main?tab=readme-ov-file)
 
 
 ### API  
