@@ -25,6 +25,7 @@ enhance your coding skills and create high-quality software
   - [Talks and other scale related notes](https://github.com/binhnguyennus/awesome-scalability?tab=readme-ov-file#talk)
   - [awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design?tab=readme-ov-file)
   - [low level design books ](https://github.com/ajitpal/BookBank/tree/master)
+  - [clean-code](https://github.com/jnguyen095/clean-code/blob/master/Clean.Code.A.Handbook.of.Agile.Software.Craftsmanship.pdf)
 
 
 ### API  
