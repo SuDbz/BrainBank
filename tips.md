@@ -20,6 +20,7 @@ enhance your coding skills and create high-quality software
   - [Basic System Design for Uber or Lyft | System Design Interview Prep](https://www.youtube.com/watch?v=R_agd5qZ26Y)
   - [Design Twitter - System Design Interview](https://www.youtube.com/watch?v=o5n85GRKuzk)
   - [awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources/tree/main?tab=readme-ov-file)
+  - [Books](https://github.com/samayun/devbooks/blob/master/Designing%20Data-Intensive%20Applications%20The%20Big%20Ideas%20Behind%20Reliable%2C%20Scalable%2C%20and%20Maintainable%20Systems%20(%20PDFDrive%20).pdf)
 
 
 ### API  
