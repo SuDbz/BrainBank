@@ -68,13 +68,13 @@ fmt.Printf("%+v\n", x)   // Output: int(42)
 
 
 ### AI
-  -[AI-For-Beginners](https://microsoft.github.io/AI-For-Beginners/)
-  -[ML-For-Beginners](https://microsoft.github.io/ML-For-Beginners/#/1-Introduction/1-intro-to-ML/README)
-  -[AI](https://www.udemy.com/course/artificial-intelligence-az/?couponCode=IND21PM)
+  - [AI-For-Beginners](https://microsoft.github.io/AI-For-Beginners/)
+  - [ML-For-Beginners](https://microsoft.github.io/ML-For-Beginners/#/1-Introduction/1-intro-to-ML/README)
+  - [AI](https://www.udemy.com/course/artificial-intelligence-az/?couponCode=IND21PM)
 
 
 
 ### Table relations 
-  -[SQL Server Tutorial - One-to-many and many-to-many table relationships](https://www.youtube.com/watch?v=4q-keGvUnag)  
-  -[How to Correctly Define Many-To-Many Relationships in Database Design](https://www.youtube.com/watch?v=1eUn6lsZ7c4)
+  - [SQL Server Tutorial - One-to-many and many-to-many table relationships](https://www.youtube.com/watch?v=4q-keGvUnag)  
+  - [How to Correctly Define Many-To-Many Relationships in Database Design](https://www.youtube.com/watch?v=1eUn6lsZ7c4)
 
