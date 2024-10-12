@@ -73,6 +73,8 @@ fmt.Printf("%+v\n", x)   // Output: int(42)
   - [AI](https://www.udemy.com/course/artificial-intelligence-az/?couponCode=IND21PM)
 
 
+### K8
+  - [k8 tools](https://github.com/collabnix/kubetools)
 
 ### Table relations 
   - [SQL Server Tutorial - One-to-many and many-to-many table relationships](https://www.youtube.com/watch?v=4q-keGvUnag)  
