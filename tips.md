@@ -26,6 +26,7 @@ enhance your coding skills and create high-quality software
   - [awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design?tab=readme-ov-file)
   - [low level design books ](https://github.com/ajitpal/BookBank/tree/master)
   - [clean-code](https://github.com/jnguyen095/clean-code/blob/master/Clean.Code.A.Handbook.of.Agile.Software.Craftsmanship.pdf)
+  - [System_Design_interview](https://github.com/yushangdi/Leetcode-1/blob/master/Design/System_Design_interview.md)
 
 
 ### API  
