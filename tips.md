@@ -27,7 +27,12 @@ enhance your coding skills and create high-quality software
   - [low level design books ](https://github.com/ajitpal/BookBank/tree/master)
   - [clean-code](https://github.com/jnguyen095/clean-code/blob/master/Clean.Code.A.Handbook.of.Agile.Software.Craftsmanship.pdf)
   - [System_Design_interview](https://github.com/yushangdi/Leetcode-1/blob/master/Design/System_Design_interview.md)
-
+  - [Kafka 101](https://highscalability.com/untitled-2/)
+  - [Capturing A Billion Emo(j)i-ons](https://highscalability.com/capturing-a-billion-emo-j-i-ons/)
+  - [Brief History of Scaling Uber](https://highscalability.com/brief-history-of-scaling-uber/)
+  - [Behind AWS S3’s Massive Scale](https://highscalability.com/behind-aws-s3s-massive-scale/)
+  - [The latest research from Google](https://research.google/blog/)
+  - [Introduction to Apache ZooKeeper](https://www.slideshare.net/slideshow/kafka-talk-tri-hug/24576257)
 
 ### API  
   - [Top 7 Ways to 10x Your API Performance](https://www.youtube.com/watch?v=zvWKqUiovAM)
