@@ -8,3 +8,4 @@
     - [Develper playground](platform.openai.com)
 
 - [Course](https://www.udemy.com/course/chatgpt-quick-guide-prompt-engineering-plugins-and-more)
+- [Prompt Engineering](https://www.youtube.com/watch?v=_ZvnD73m40o)
