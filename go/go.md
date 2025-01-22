@@ -45,6 +45,7 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
         Initializes a new Go module and creates a go.mod file in the current directory.
 
         Example: go mod init example.com/yourproject
+        Note: This will be set as your go path [ export GOPATH=example.com/yourproject]
    
         Functionality:
             1. Sets the module path in the go.mod file.
