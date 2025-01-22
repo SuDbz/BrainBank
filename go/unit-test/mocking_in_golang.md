@@ -106,6 +106,7 @@ func TestSayHelloWithGoMock(t *testing.T) {
     }
 }
 ```
+ - [Sample code](examples/)
 
 ### Why Choose Mock Libraries?
 - **Automation**: Automatically generates mock code.

@@ -32,8 +32,11 @@ Unit testing is a crucial part of software development, especially in a language
  - Assertions :  Use methods like t.Errorf and t.Fatalf to make assertions about the expected behavior of your code.
  - Test Coverage:  Measure how much of your code is executed by your tests. Tools like go test -cover can help you identify areas with low coverage.
  - Table-Driven Tests:   For repetitive tests with varying inputs and expected outputs, use table-driven tests:
-    ```go 
-    func TestAddTableDriven(t *testing.T) {
+    <details>
+        <summary>Go Example</summary>
+            <pre>
+              <code>
+      func TestAddTableDriven(t *testing.T) {
         tests := []struct {
                 x, y, expected int
         }{
@@ -49,7 +52,9 @@ Unit testing is a crucial part of software development, especially in a language
                 }
         }
     }
-    ```
+                </code>
+        </pre>
+    </details>
 
  ### Running Tests
 
