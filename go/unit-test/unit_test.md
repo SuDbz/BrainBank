@@ -1,6 +1,6 @@
 # Unit Testing in golang 
 
-Unit testing is a crucial part of software development, especially in a language like Go where concurrency and performance are paramount. H
+Unit testing is a crucial part of software development, especially in a language like Go where concurrency and performance are paramount.
 
 
 ### Go's Testing Framework
@@ -59,5 +59,5 @@ Unit testing is a crucial part of software development, especially in a language
 
 ## Documentation 
 
-[Recommended Structure and Rules for a Go Unit Test File](golang_unit_test_structure.md)
-[Mocking Objects in Go: A Guide with Examples](mocking_in_golang.md)
+1. [Recommended Structure and Rules for a Go Unit Test File](golang_unit_test_structure.md)
+2. [Mocking Objects in Go: A Guide with Examples](mocking_in_golang.md)
