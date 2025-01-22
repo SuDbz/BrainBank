@@ -106,6 +106,43 @@ func TestSayHelloWithGoMock(t *testing.T) {
     }
 }
 ```
+
+```go
+package main
+
+import (
+	"testing"
+	"github.com/stretchr/testify/mock"
+)
+
+type Call struct {
+	mock.Mock
+}
+
+func (c *Call) Foo(a int, b string) string {
+	args := c.Called(a, b)
+	return args.String(0)
+}
+
+func TestFoo(t *testing.T) {
+	// Create the mock object
+	c := new(Call)
+
+	// Set up expectations
+	c.On("Foo", 2, "bar").Return("Hello, world!")
+
+	// Call the method and check the return value
+	result := c.Foo(2, "bar")
+
+	// Output the result
+	t.Log(result) // Outputs: Hello, world!
+
+	// Assert that all expectations were met
+	c.AssertExpectations(t) // Here we pass `t`, the testing object
+}
+
+
+```
  - [Sample code](examples/)
 
 ### Why Choose Mock Libraries?
