@@ -95,6 +95,8 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
     - [Go Pointers: When & How To Use Them Efficiently](https://www.youtube.com/watch?v=3WsEDZRif6U)
  - Slice
     - [Golang Slice Tricks Every Beginner Should Know](https://www.youtube.com/watch?v=AL_C9nF_0ss)
+ - Custom Tags
+    - [Creating custom struct tags in Golang is awesome!](https://www.youtube.com/watch?v=vtHZb7gNlbw)
   
  - [Important Tips On How To Write Idiomatic Code In Golang](https://www.youtube.com/watch?v=9cJHCoSxbn8)
  - [How To Build And Structure A Microservice In Golang?!](https://www.youtube.com/watch?v=sqj4UzN4OpU)
