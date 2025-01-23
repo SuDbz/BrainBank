@@ -1,6 +1,14 @@
 # Mocking Objects in Go: A Guide with Examples
 
-Mocking is an essential technique for isolating the system under test by replacing dependencies with mock implementations. In Go, mocking is often achieved using interfaces, and different tools or approaches can be used based on the complexity of the system and the use case.
+## Table of Contents
+- [Why Use Mocking?](#why-use-mocking)
+- [Mocking Strategies in Go](#mocking-strategies-in-go)
+  - [Manual Mocking](#1-manual-mocking)
+  - [Using Mock Libraries](#2-using-mock-libraries)
+  - [Functional Mocking](#3-functional-mocking)
+- [Summary](#summary)
+
+---
 
 ## Why Use Mocking?
 1. **Isolation**: Tests focus only on the functionality of the code under test, not on its dependencies.
@@ -107,43 +115,41 @@ func TestSayHelloWithGoMock(t *testing.T) {
 }
 ```
 
+#### Example: Using Testify Mock
 ```go
 package main
 
 import (
-	"testing"
-	"github.com/stretchr/testify/mock"
+    "testing"
+    "github.com/stretchr/testify/mock"
 )
 
 type Call struct {
-	mock.Mock
+    mock.Mock
 }
 
 func (c *Call) Foo(a int, b string) string {
-	args := c.Called(a, b)
-	return args.String(0)
+    args := c.Called(a, b)
+    return args.String(0)
 }
 
 func TestFoo(t *testing.T) {
-	// Create the mock object
-	c := new(Call)
+    // Create the mock object
+    c := new(Call)
 
-	// Set up expectations
-	c.On("Foo", 2, "bar").Return("Hello, world!")
+    // Set up expectations
+    c.On("Foo", 2, "bar").Return("Hello, world!")
 
-	// Call the method and check the return value
-	result := c.Foo(2, "bar")
+    // Call the method and check the return value
+    result := c.Foo(2, "bar")
 
-	// Output the result
-	t.Log(result) // Outputs: Hello, world!
+    // Output the result
+    t.Log(result) // Outputs: Hello, world!
 
-	// Assert that all expectations were met
-	c.AssertExpectations(t) // Here we pass `t`, the testing object
+    // Assert that all expectations were met
+    c.AssertExpectations(t) // Here we pass `t`, the testing object
 }
-
-
 ```
- - [Sample code](examples/)
 
 ### Why Choose Mock Libraries?
 - **Automation**: Automatically generates mock code.
@@ -200,3 +206,4 @@ func TestSayHelloFunc(t *testing.T) {
 | Functional Mocking | Lightweight, single-method dependencies    | Minimal boilerplate, flexible     | Limited to simple cases               |
 
 Choose the approach that best fits your project's complexity, team familiarity, and testing requirements.
+
