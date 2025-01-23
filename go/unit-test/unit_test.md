@@ -66,6 +66,8 @@ Unit testing is a crucial part of software development, especially in a language
 
 1. [Recommended Structure and Rules for a Go Unit Test File](golang_unit_test_structure.md)
 2. [Mocking Objects in Go: A Guide with Examples](mocking_in_golang.md)
+3. [Sub-tests in Go](sub_tests.md)
+4. [Examples in go](exmples_in_go.md)
 
 ## References 
 - [A hands-on guide for proper Unit Testing in Go!](https://www.youtube.com/watch?v=W4njY-VzkUU)
