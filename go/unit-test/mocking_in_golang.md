@@ -189,6 +189,13 @@ func TestSayHelloFunc(t *testing.T) {
     }
 }
 ```
+Methods That Cannot Be Mocked 
+Reassigning a function directly within the test, this approach has limitations:
+
+- Package-Level Functions: Functions declared at the package level cannot be reassigned within a function or test. This is because they are not variables that can be reassigned.
+- Methods on Concrete Types: Methods defined on concrete types (structs) cannot be easily replaced or mocked without using interfaces.
+ 
+
 
 ### Why Choose Functional Mocking?
 - **Simplicity**: Best for single-method interfaces or lightweight dependencies.
