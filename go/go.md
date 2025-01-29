@@ -105,6 +105,8 @@ Golang, often referred to as Go, is a statically typed, compiled programming lan
  - Design Pattern
       - [Golang Pattern](https://www.youtube.com/watch?v=pNv0dXBqKsM&list=PLZ6pHHPq5DrnH7XK5NXAXbCFeHfQzIauk)
       - [Go Design Patterns](https://www.youtube.com/watch?v=F365lY5ECGY&list=PLJbE2Yu2zumAKLbWO3E2vKXDlQ8LT_R28)
+  
+ - [When nil Isn't Equal to nil](https://www.calhoun.io/when-nil-isnt-equal-to-nil/)
 
 
 
