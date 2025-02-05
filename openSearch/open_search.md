@@ -251,3 +251,4 @@ curl -X GET "localhost:9200/my-index/_search" -H 'Content-Type: application/json
 
 ## Other
 - [Configure opensearch with helm](opensearch_helm.md)
+- [Basic open-search queries](query_basics.md)
