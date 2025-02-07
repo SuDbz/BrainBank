@@ -43,6 +43,9 @@ Apache Kafka is an open-source distributed streaming platform designed to handle
 - **At-Least-Once Delivery**: A guarantee that a message will be processed at least once.
 - **ZooKeeper**: A distributed coordination service used by Kafka for configuration management and naming
 
+#### 3. In-deepth 
+  - [A to Z ](/kafka/atoz/kafka_a_z.md)
+
 
 ## Kafka Configuration / Code Sample <a name="code" ></a>
 
