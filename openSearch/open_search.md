@@ -23,7 +23,8 @@ This guide provides a basic overview of OpenSearch setup and usage. For more det
 - [Shards and Replicas](#shards-and-replicas)
 - [Finding Unique Elements](#finding-unique-elements)
 - [Top Elements](#top-elements)
-- [Features](#features)
+- [Basics](#features)
+- [Elasticsearch in detail](#elasticsearch)
 
 ## Introduction
 OpenSearch is a community-driven, open-source search and analytics suite derived from Elasticsearch. It provides a distributed, RESTful search engine capable of handling large volumes of data.
@@ -249,9 +250,12 @@ curl -X GET "localhost:9200/my-index/_search" -H 'Content-Type: application/json
 }'
 ```
 
-## Features 
-- [Configure opensearch with helm](opensearch_helm.md)
-- [Basic open-search queries](query_basics.md)
-- [Data types](data_types_in_es.md)
-- [Dynamic Mapping](dynamic_mapping.md)
+## Basics 
+- [Configure opensearch with helm](basic/opensearch_helm.md)
+- [Basic open-search queries](basic/query_basics.md)
+- [Data types](basic/data_types_in_es.md)
+- [Dynamic Mapping](basic/dynamic_mapping.md)
 
+## Elasticsearch
+- [Elasticsearch](elasticsearch/init.md) 
+   

@@ -12,7 +12,7 @@
 6. [Controlling Dynamic Mapping](#controlling-dynamic-mapping)
     - [Example: Disabling Dynamic Mapping](#example-disabling-dynamic-mapping)
     - [Example: Strict Dynamic Mapping](#example-strict-dynamic-mapping)
-7. [Conclusion](#conclusion)
+
 
 ## Introduction
 
