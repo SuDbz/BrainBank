@@ -106,9 +106,9 @@ consumer.commitSync();
 
 
 ### Kafka references <a name="references" ></a>
-- [code](/code)
-- [A-to-Z](/atoz/kafka_a_z.md)
-- [Docker](/atoz/run_kafka_docker.md)
+- [code](/kafka/code/help.md)
+- [A-to-Z](/kafka/atoz/kafka_a_z.md)
+- [Docker](/kafka/atoz/run_kafka_docker.md)
 - [Consumer off-set](https://www.youtube.com/watch?v=KOu6DVdaY24) 
 - [Message queue (kmq)](https://www.youtube.com/watch?v=-As92HV0O4E)
 - [Kafka Topics, Partitions and Offsets Explained](https://www.youtube.com/watch?v=_q1IjK5jjyU)
