@@ -257,5 +257,6 @@ curl -X GET "localhost:9200/my-index/_search" -H 'Content-Type: application/json
 - [Dynamic Mapping](basic/dynamic_mapping.md)
 
 ## Elasticsearch
-- [Elasticsearch](elasticsearch/init.md) 
+- [Elasticsearch](elasticsearch/init.md)
+- [Playbook](https://github.com/ImadSaddik/ElasticSearch_Python_Course/tree/main/notebooks)
    
