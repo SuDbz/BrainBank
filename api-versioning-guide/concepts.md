@@ -8,7 +8,6 @@ This page introduces the core concepts, strategies, and best practices for API v
 - [Comparison Table](#comparison-table)
 - [Best Practices](#best-practices)
 - [Deprecation and Transition](#deprecation-and-transition)
-- [Next: API Versioning in Go + Protobuf](./go_protobuf.md)
 
 ---
 
@@ -40,4 +39,4 @@ This page introduces the core concepts, strategies, and best practices for API v
 - Remove deprecated versions in stages
 
 ---
-**Next:** [API Versioning in Go + Protobuf](./go_protobuf.md)
+
