@@ -16,5 +16,5 @@ A personal learning repository organized with folders and tags for easy navigati
 5. [API versioning](/api-versioning-guide/README.md)  
     Best practices and strategies for managing API versions in software projects.
 
-6. [Bazel] (/others/bazel.md)
+6. [Bazel](/others/bazel.md)
     A comprehensive guide to understanding and using Bazel for Go development with Protocol Buffers, designed for developers of all skill levels.
