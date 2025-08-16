@@ -11,6 +11,8 @@ A personal learning repository organized with folders and tags for easy navigati
 
 5. [API versioning](/api-versioning-guide/README.md) - Best practices and strategies for managing API versions in software projects.
 
-6. [Bazel](/others/bazel.md)  - A comprehensive guide to understanding and using Bazel for Go development with Protocol Buffers, designed for developers of all skill levels.
+6. [API security](/others/api-security-explained.md) - A complete guide to API security covering 11 critical topics: rate limiting, CORS, injection prevention, CSRF protection, authentication/authorization, HTTPS/TLS, input validation, logging, security headers, error handling, and XSS prevention. Each section includes detailed explanations and production-ready code examples in both Python (Flask) and Go (Gin) with line-by-line comments explaining the security rationale and implementation details. 
 
-7. [RKE2](/others/rke2.md) - (Rancher Kubernetes Engine 2), also known as **RKE Government**, is Rancher's next-generation, enterprise-ready Kubernetes distribution designed for production workloads with enhanced security and compliance features
+7. [Bazel](/others/bazel.md)  - A comprehensive guide to understanding and using Bazel for Go development with Protocol Buffers, designed for developers of all skill levels.
+
+8. [RKE2](/others/rke2.md) - (Rancher Kubernetes Engine 2), also known as **RKE Government**, is Rancher's next-generation, enterprise-ready Kubernetes distribution designed for production workloads with enhanced security and compliance features
