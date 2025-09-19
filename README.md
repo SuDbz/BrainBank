@@ -16,3 +16,5 @@ A personal learning repository organized with folders and tags for easy navigati
 7. [Bazel](/others/bazel.md)  - A comprehensive guide to understanding and using Bazel for Go development with Protocol Buffers, designed for developers of all skill levels.
 
 8. [RKE2](/others/rke2.md) - (Rancher Kubernetes Engine 2), also known as **RKE Government**, is Rancher's next-generation, enterprise-ready Kubernetes distribution designed for production workloads with enhanced security and compliance features
+
+9. [Swagger 2 and proto](/others/swagger-proto.md) - This guide provides a comprehensive walkthrough for generating a Swagger 2.0 (OpenAPI) specification from Protocol Buffers (protobuf) files. It is designed for beginners and advanced users, with detailed examples, configuration options, and troubleshooting tips.
