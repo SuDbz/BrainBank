@@ -173,6 +173,225 @@ rpc SayHello (HelloRequest) returns (HelloReply) {
 }
 ```
 
+
+you can customize the reponse as well.
+
+```
+
+syntax = "proto3";
+package internal.api;
+
+import "protoc-gen-swagger/options/annotations.proto";
+import "google/protobuf/any.proto";
+
+option go_package = "internal/api";
+
+option (grpc.gateway.protoc_gen_swagger.options.openapiv2_swagger) = {
+  info: {
+    title: "Internal Device Management API";
+    version: "2.0.0";
+    description: "Internal API for enterprise device management operations";
+  };
+  
+  // Complete response definitions with all available options
+  responses: {
+    key: "200"
+    value: {
+      description: "Operation completed successfully";
+      schema: {
+        json_schema: {
+          type: OBJECT;
+          title: "SuccessResponse";
+          description: "Standard success response format";
+          properties: {
+            key: "status";
+            value: {
+              type: STRING;
+              description: "Operation status indicator";
+              default: "success";
+            };
+          };
+          properties: {
+            key: "data";
+            value: {
+              type: OBJECT;
+              description: "Response payload data";
+            };
+          };
+          required: ["status"];
+          example: "{\"status\":\"success\",\"data\":{\"id\":\"device-123\"}}";
+        };
+      };
+      headers: {
+        key: "X-Request-ID";
+        value: {
+          description: "Unique identifier for request tracking";
+          type: "string";
+          format: "uuid";
+          pattern: "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$";
+        };
+      };
+      headers: {
+        key: "X-Rate-Limit-Remaining";
+        value: {
+          description: "Number of requests remaining in current time window";
+          type: "integer";
+          minimum: 0;
+          maximum: 1000;
+        };
+      };
+      examples: {
+        key: "application/json";
+        value: "{\"status\":\"success\",\"data\":{\"deviceId\":\"internal-device-001\"}}";
+      };
+    };
+  }
+  
+  responses: {
+    key: "400"
+    value: {
+      description: "Invalid request parameters or malformed request body";
+      schema: {
+        json_schema: {
+          ref: ".ValidationErrorResponse";
+        };
+      };
+      headers: {
+        key: "X-Error-Code";
+        value: {
+          description: "Internal error classification code";
+          type: "string";
+          enum: ["VALIDATION_FAILED", "MALFORMED_REQUEST", "MISSING_REQUIRED_FIELD"];
+        };
+      };
+      examples: {
+        key: "application/json";
+        value: "{\"error\":{\"code\":\"VALIDATION_FAILED\",\"message\":\"Device name is required\"}}";
+      };
+    };
+  }
+  
+  responses: {
+    key: "401"
+    value: {
+      description: "Authentication credentials missing or invalid";
+      schema: {
+        json_schema: {
+          type: OBJECT;
+          properties: {
+            key: "error";
+            value: {
+              type: OBJECT;
+              properties: {
+                key: "code";
+                value: {
+                  type: STRING;
+                  enum: ["AUTH_MISSING", "AUTH_INVALID", "AUTH_EXPIRED"];
+                };
+              };
+              properties: {
+                key: "message";
+                value: {
+                  type: STRING;
+                  description: "Human-readable error description";
+                };
+              };
+              required: ["code", "message"];
+            };
+          };
+        };
+      };
+      headers: {
+        key: "WWW-Authenticate";
+        value: {
+          description: "Authentication method required";
+          type: "string";
+          default: "Bearer";
+        };
+      };
+    };
+  }
+  
+  responses: {
+    key: "500"
+    value: {
+      description: "Internal system error occurred during processing";
+      schema: {
+        json_schema: {
+          type: OBJECT;
+          title: "InternalErrorResponse";
+          properties: {
+            key: "error";
+            value: {
+              type: OBJECT;
+              properties: {
+                key: "code";
+                value: {
+                  type: STRING;
+                  default: "INTERNAL_ERROR";
+                };
+              };
+              properties: {
+                key: "message";
+                value: {
+                  type: STRING;
+                  description: "Error message for debugging";
+                };
+              };
+              properties: {
+                key: "requestId";
+                value: {
+                  type: STRING;
+                  description: "Request identifier for error tracking";
+                  format: "uuid";
+                };
+              };
+              required: ["code", "message", "requestId"];
+            };
+          };
+        };
+      };
+      headers: {
+        key: "Retry-After";
+        value: {
+          description: "Suggested wait time before retry (seconds)";
+          type: "integer";
+          minimum: 1;
+          maximum: 3600;
+        };
+      };
+    };
+  }
+};
+
+// Message definitions for referenced schemas
+message ValidationErrorResponse {
+  option (grpc.gateway.protoc_gen_swagger.options.openapiv2_schema) = {
+    json_schema: {
+      title: "ValidationErrorResponse";
+      description: "Response for validation failures";
+    };
+  };
+  
+  ErrorInfo error = 1;
+  repeated FieldError field_errors = 2;
+}
+
+message ErrorInfo {
+  string code = 1;
+  string message = 2;
+  string request_id = 3;
+}
+
+message FieldError {
+  string field = 1;
+  string message = 2;
+  string rejected_value = 3;
+}
+
+
+```
+
 #### Per-Message Customization
 ```proto
 message HelloRequest {
