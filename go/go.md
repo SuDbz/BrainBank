@@ -8,6 +8,7 @@
  - [Use Cases](#use-case)
  - [Go Language Notes](#note)
  - [Common notes](#others)
+ - [Go 14 to 26](/features/Go-14-26.md)
 
 
 ## About <a name = "about"></a>
